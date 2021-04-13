@@ -1,0 +1,15 @@
+{
+  "name": "npm-init-example",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "./scripts/foreground.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package.json"
+  ],
+  "author": "Martina Passarelli",
+  "license": "ISC"
+}
