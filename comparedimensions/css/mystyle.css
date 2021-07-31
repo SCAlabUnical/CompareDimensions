@@ -1,0 +1,286 @@
+/*
+This is the class of the component "estensione". It is the "div" element that contains all the extension
+*/
+
+.estensione {
+    border: 2px outset lightskyblue;
+    background-color: rgba(220, 220, 220, 0.651);
+    text-align: center;
+  }
+
+  /*
+  this is the class of the component "titolo". It is the "label" element with the title
+  */
+
+
+.titolo {
+    padding: 10px;
+    text-align: center;
+    background: #2989c0;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+     
+}
+
+.frame {
+    width: 100%;
+    height: 800px;
+    
+}
+.left{
+    float: left;
+}
+
+.right{
+    padding-top: 20px;
+    float: right;
+    padding-right: 0px;
+    
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.sagoma {
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    background-size: 100px 400px;
+    border: 5px outset #2989c0;
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    border-radius: 12px;
+}
+
+.metro {
+    display:none;
+    padding: 20px;
+    width: 30px;
+    height: 700px;
+    background-size: 30px 700px;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.metro_x {
+    display:none;
+    padding: 20px;
+    width: 700px;
+    height: 30px;
+    background-size: 700px 30px;
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+    
+ }
+th, td {
+    
+    padding: 8px;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    
+ }
+  
+ tr:nth-child(even){
+     background-color: transparent;
+     font-size: 15px;
+    }
+  
+ th {
+    background-color: #2989c0;
+    color: white;
+    text-align: center;
+}
+
+.mytableDiv{
+    border: 5px outset  #2989c0;
+    width: 760px;
+    height: auto;
+    border-radius: 12px;
+    float: left;
+    
+    
+}
+
+.mySagomeDiv {
+    padding: 20px;
+    width: 700;
+    height: 700px;
+   /* border: 5px outset  #2989c0;*/
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    /*border-radius: 12px;*/
+    position: relative;
+}
+
+.mySagomeDiv img{
+    cursor: move;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.mySagome{
+    display:none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    position: absolute;
+}
+.mySlidesDiv {
+    
+    float: right;
+    
+}
+
+.mySlidesDiv img {
+    left: 322px;
+    cursor: move;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+ 
+/*.mySlidesDiv {
+    
+    padding: 20px;
+    width: 700px;
+    height:700px;
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    position: relative;
+    
+}*/
+
+/*
+ mix-blend-mode: multiply;
+*/
+
+.mySlides{
+    display:none;
+    border: none;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: absolute;
+    
+}
+
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto;}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+
+/* Next & previous buttons
+
+*/
+.divBottoni{
+    
+    float: left;
+    clear: both;
+}
+.prevS, .nextS {
+    margin-left: 22px;
+    width: 25px;
+    height: 25px;
+    padding: 0px 20px;
+    color: #2989c0;
+    background-color: transparent;
+    background-size: 35px 25px;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    outline: none;
+    transition: 0.6s ease;
+    border-color: transparent;
+    line-height: 10px;
+    white-space:nowrap;
+    text-align: center;
+    position: relative;
+   /*
+   */
+    
+  }
+ .next {
+    
+    margin-right: 570px;
+    width: 25px;
+    height: 25px;
+    padding: 0px 20px;
+    color: #2989c0;
+    background-color: transparent;
+    background-size: 35px 25px;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    outline: none;
+    transition: 0.6s ease;
+    border-color: transparent;
+    line-height: 10px;
+   
+  }
+  
+  .prev {
+    
+    margin-left: 520px;
+    width: 25px;
+    height: 25px;
+    padding: 0px 30px;
+    color: #2989c0;
+    background-color: transparent;
+    background-size: 35px 25px;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    outline: none;
+    transition: 0.6s ease;
+    border-color: transparent;
+    line-height: 10px;
+  }
+
+.prev:hover_ {
+    background-color: #57a7d6;
+    color: white;
+  }
+
+.next:hover_ {
+    background-color: #57a7d6;
+    color: white;
+  }
+/*
+RIMUOVE LO SPIN DALL'IMPUT NUMBER
+*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.refresh{
+    float: right;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
+.label {
+    float: right;
+    
+    font: italic 20px "Fira Sans", serif;
+}
+/*margin-top:40px;
+*/
+.check{
+    width: 35px;
+    height: 35px;
+    
+    
+}
+
